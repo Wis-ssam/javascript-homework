@@ -1,8 +1,7 @@
 const arr =[ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 const ar =[ 20, 100, -100, -3, 5, 0, -2 ];
 
-// output -4,-3,1,2,3,5,6,7,8
-    let temp;
+let temp;
 function tri(vecteur){
     for(var i=0 ; i <vecteur.length - 1; i++){
         for(var j=i+1 ; j<vecteur.length ; j++){
@@ -14,7 +13,7 @@ function tri(vecteur){
         }
     }
         
-    return vecteur
+    return vecteur;
 }
     
 console.log(tri(arr));
